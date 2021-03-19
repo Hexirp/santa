@@ -1,0 +1,27 @@
+expression = application expression | lambda expression | symbol | text expression | number expression;
+
+application expression = "(", blank spaces, expression, blank spaces, " ", blank spaces, expression, blank spaces, ")";
+
+lambda expression = "lambda", blank spaces, symbol, blank spaces, expression;
+
+symbol = ...;
+
+text expression = "\"", ASCII characters without special characters, "\"";
+
+ASCII characters without special characters = ...;
+
+number expression = scientific notation | demical representation;
+
+scientific notation = demical representation, "e", demical representation;
+
+demical representation = [ mathematics sign ], non-negative demical representation;
+
+non-negative demical representation = digits, [ ".", digits ];
+
+mathematics sign = "+" | "-";
+
+digits = digit, { digit };
+digit = "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9";
+
+blank spaces = { blank space };
+blank space = "\t" | "\n" | "\r";
