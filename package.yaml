@@ -4,7 +4,7 @@ github:              "Hexirp/santa"
 license:             BSD3
 author:              "Hexirp"
 maintainer:          "hexirp@gmail.com"
-copyright:           "(C) Hexirp 2019"
+copyright:           "(C) Hexirp 2021"
 
 extra-source-files:
 - README.md

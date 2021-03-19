@@ -13,7 +13,7 @@ homepage:       https://github.com/Hexirp/santa#readme
 bug-reports:    https://github.com/Hexirp/santa/issues
 author:         Hexirp
 maintainer:     hexirp@gmail.com
-copyright:      (C) Hexirp 2019
+copyright:      (C) Hexirp 2021
 license:        BSD3
 license-file:   LICENSE
 build-type:     Simple
