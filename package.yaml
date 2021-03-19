@@ -20,7 +20,7 @@ extra-source-files:
 description:         Please see the README on GitHub at <https://github.com/Hexirp/santa#readme>
 
 dependencies:
-- base >= 4.7 && < 5
+- base >= 4.7 && < 4.14
 
 library:
   source-dirs: src

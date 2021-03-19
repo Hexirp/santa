@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: f396bb2c719e687c49fa1921345749825d342c400910b694f99d3f370cd6901f
+-- hash: e74132d2e6e03870d8905b4a2f0cb9bd52cf5a32ec3aedd8742746a2f1f7a16c
 
 name:           santa
 version:        0.1.0.0
@@ -33,7 +33,7 @@ library
   hs-source-dirs:
       src
   build-depends:
-      base >=4.7 && <5
+      base >=4.7 && <4.14
   default-language: Haskell2010
 
 executable santa-exe
@@ -44,7 +44,7 @@ executable santa-exe
       app
   ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
-      base >=4.7 && <5
+      base >=4.7 && <4.14
     , santa
   default-language: Haskell2010
 
@@ -57,6 +57,6 @@ test-suite santa-test
       test
   ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
-      base >=4.7 && <5
+      base >=4.7 && <4.14
     , santa
   default-language: Haskell2010
