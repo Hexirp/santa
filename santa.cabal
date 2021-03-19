@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: e74132d2e6e03870d8905b4a2f0cb9bd52cf5a32ec3aedd8742746a2f1f7a16c
+-- hash: b410fc27d90c3ef559048e9df0c433f6d9787c311e9847e578e08421b1393f05
 
 name:           santa
 version:        0.1.0.0
@@ -28,6 +28,7 @@ source-repository head
 library
   exposed-modules:
       Lib
+      Santa.Expression
   other-modules:
       Paths_santa
   hs-source-dirs:
