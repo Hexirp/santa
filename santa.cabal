@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 2bc0c8457a763e7c521622f4fe15eab1893fb3ba40ee87ea9c9b9e3812ad98f4
+-- hash: f396bb2c719e687c49fa1921345749825d342c400910b694f99d3f370cd6901f
 
 name:           santa
 version:        0.1.0.0
